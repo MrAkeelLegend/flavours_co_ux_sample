@@ -181,6 +181,7 @@ h2.big-text {
 
   .nav-links li {
     opacity: 0;
+	padding: 0;
   }
 
   .nav-links li:nth-child(1) {
