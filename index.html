@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flavours Co.</title>
 
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+
+  <!--heebo , lobstar  ubuntu google font api-->
   <link
     href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&family=Lobster&family=Poppins&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap"
     rel="stylesheet">
@@ -14,7 +22,7 @@
 
 <body>
   <main>
-    <section class="head-cover">
+    <section class="head-cover" uk-parallax="bgy: -400">
       <nav>
         <div class="hamburger">
           <div class="line"></div>
@@ -34,6 +42,24 @@
     </section>
   </main>
 
+  <div class="uk-child-width-1-2@m  uk-overflow-hidden uk-margin-medium-top" uk-grid>
+    <div class="uk-flex uk-flex-center">
+      <div><img src="img/FR.png" alt=""></div>
+    </div>
+    <div class="uk-flex uk-flex-middle">
+      <div class="uk-width-2-3@m uk-text-left logo-text">
+        <h1 uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; viewport: 0.5;">Made With Love</h1>
+        <p uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; viewport: 0.5;">We make cakes
+          not just as profession, but with a shire passion. Our cakery crafts every bit of cakes uniquely for each &
+          every one.</p>
+        <a class="uk-button uk-button-default" style="border-color: #c68579;" id="our-story-btn" href="#">View Our
+          Story</a>
+      </div>
+    </div>
+  </div>
+
+
+
   <div class="intro">
     <div class="intro-text">
       <h1 class="hide">
@@ -51,6 +77,8 @@
   <div class="slider"></div>
 
 
+
+  <!------------------------------------GSAP animation plugins--------------->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
     integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
     crossorigin="anonymous"></script>

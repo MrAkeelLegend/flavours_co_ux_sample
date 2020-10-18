@@ -2,10 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*overflow-x: hidden;*/
 }
 
 main {
   font-family: "Heebo", 'sans-serif';
+}
+
+ol,
+ul {
+  padding: 0;
 }
 
 .head-cover {
@@ -47,6 +53,8 @@ nav {
   font-family: 'Lobster', 'Cursive';
   font-weight: lighter;
   font-size: 2rem;
+  margin: auto;
+  margin-left: 1rem;
 }
 
 .hamburger {
@@ -103,12 +111,21 @@ h2.big-text {
   display: inline-block;
 }
 
+
+
+#our-story-btn:hover {
+  color: white;
+  background: #c68579;
+}
+
+
+
 @media only screen and (max-width: 768px) {
 
-  * {
-    /*max-width: 100vw;*/
-    /*overflow-x: hidden;*/
-  }
+  /* * {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }*/
 
   .intro-text {
     color: aliceblue;
@@ -117,15 +134,21 @@ h2.big-text {
     line-height: 0.5;
   }
 
+  .intro-text h1 {
+    margin: 0;
+  }
+
   .hide span {
-    padding: 10px;
+    /* padding: 0.5rem 1rem;*/
+    font-size: 1rem;
   }
 
   .head-cover {
     min-height: 100vh;
     min-width: 100vw;
-    background: url('img/cover/mobile_cupcakes.jpg');
+    background: url('img/cover/cupcakes_vertical.jpg');
     background-size: cover;
+    background-position: center;
     /*padding: 0rem 3rem;*/
   }
 
@@ -181,7 +204,7 @@ h2.big-text {
 
   .nav-links li {
     opacity: 0;
-	padding: 0 !important;
+    padding: 0 !important;
   }
 
   .nav-links li:nth-child(1) {
@@ -206,5 +229,9 @@ h2.big-text {
 
   li.fade {
     opacity: 1 !important;
+  }
+
+  .logo-text {
+    text-align: center !important;
   }
 }
