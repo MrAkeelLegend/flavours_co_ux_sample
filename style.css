@@ -9,6 +9,10 @@ main {
   font-family: "Heebo", 'sans-serif';
 }
 
+h1 {
+  font-family: 'PT Sans', sans-serif;
+}
+
 ol,
 ul {
   padding: 0;
