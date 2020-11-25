@@ -53,8 +53,8 @@
     </div>
     <div class="uk-flex uk-flex-middle">
       <div class="uk-width-2-3@m uk-text-left logo-text">
-        <h1 uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; viewport: 0.5;">Made With Love</h1>
-        <p uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; viewport: 0.5;">We make cakes
+        <h1 uk-scrollspy="cls:uk-animation-fade; repeat: true;">Made With Love</h1>
+        <p uk-scrollspy="cls:uk-animation-fade; repeat: true;">We make cakes
           not just as profession, but with a shire passion. Our cakery crafts every bit of cakes uniquely for each &
           every one.</p>
         <a class="uk-button uk-button-default" style="border-color: #c68579;" id="our-story-btn" href="#">View Our
@@ -63,9 +63,9 @@
     </div>
   </div>
 
-  <section class="middle-content" uk-parallax="bgy: -400">
+  <section class="middle-content" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500" uk-parallax="bgy: -400">
 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-medium-left uk-margin-medium-right" uk-grid>
+    <div uk-scrollspy-class="uk-animation-slide-left" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-medium-left uk-margin-medium-right" uk-grid>
       <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
           <img src="img/freshly-baked.jpg" alt="" uk-cover>
           <canvas width="600" height="400"></canvas>
@@ -78,7 +78,7 @@
       </div>
     </div>
 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-medium-left uk-margin-medium-right" uk-grid>
+    <div uk-scrollspy-class="uk-animation-slide-right" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-medium-left uk-margin-medium-right" uk-grid>
       <div class="uk-card-media-left uk-cover-container">
           <img src="img/home-cooked.jpg" alt="" uk-cover>
           <canvas width="600" height="400"></canvas>
@@ -91,7 +91,7 @@
       </div>
     </div>
 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-medium-left uk-margin-medium-right" uk-grid>
+    <div uk-scrollspy-class="uk-animation-slide-left" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-medium-left uk-margin-medium-right" uk-grid>
       <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
           <img src="img/made-for-you.jpg" alt="" uk-cover>
           <canvas width="600" height="400"></canvas>
