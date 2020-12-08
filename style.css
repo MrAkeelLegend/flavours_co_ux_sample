@@ -36,10 +36,14 @@ ul {
   min-height: 60vh;
 }
 
-.qaa-cover {
-  min-height: 60vh;
+/*.qaa-cover {
+  max-height: 90vh;
   background-size: cover;
 }
+
+.qaa-cover .uk-panel {
+  max-height: 90vh;
+}*/
 
 nav {
   display: flex;
