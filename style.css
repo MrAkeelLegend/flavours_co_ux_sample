@@ -11,9 +11,16 @@ main {
   font-family: "Heebo", 'sans-serif';
 }
 
-h1 {
+h1,
+h3,
+h5 {
   font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
+}
+
+p,
+a {
+  font-family: 'PT Sans', sans-serif;
 }
 
 .middle-content h1.uk-card-title {
@@ -27,8 +34,10 @@ ul {
 
 .head-cover {
   min-height: 100vh;
-  background: url('img/cover/cupcakes.jpg');
+  min-width: 100vw;
+  background: url('img/cover/choclate_flavoursco_vertical.jpg');
   background-size: cover;
+  background-position: center;
   /*padding: 0rem 3rem;*/
 }
 
@@ -147,6 +156,15 @@ h2.big-text {
   background: #c68579;
 }
 
+.footer {
+  background-color: black;
+}
+
+.footer h3,
+.footer p {
+  font-weight: bold;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -172,14 +190,7 @@ h2.big-text {
     font-size: 1rem;
   }
 
-  .head-cover {
-    min-height: 100vh;
-    min-width: 100vw;
-    background: url('img/cover/cupcakes_vertical.jpg');
-    background-size: cover;
-    background-position: center;
-    /*padding: 0rem 3rem;*/
-  }
+
 
   nav {
     padding: 0;
@@ -264,3 +275,17 @@ h2.big-text {
     text-align: center !important;
   }
 }
+
+@media only screen and (min-width: 768px) {
+
+  .head-cover {
+    min-height: 100vh;
+    background: url('img/cover/choclate_flavoursco.jpg');
+    background-size: cover;
+    /*padding: 0rem 3rem;*/
+  }
+
+}
+
+
+/*------------------------footer styles-------------------------------*/
