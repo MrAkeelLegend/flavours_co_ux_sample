@@ -28,7 +28,13 @@ const links = document.querySelectorAll('.nav-links li');
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("open");
   links.forEach(link => {
-    link.classList.toggle("fade");
+    link.classList.add("fade");
     console.log(link.innerHTML);
   });
+});
+
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+  })
 });
