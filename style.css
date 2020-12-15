@@ -284,6 +284,10 @@ h2.big-text {
   .logo-text {
     text-align: center !important;
   }
+
+  .qaa-cover h3 {
+    font-size: small;
+  }
 }
 
 @media only screen and (min-width: 768px) {
