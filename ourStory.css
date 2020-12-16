@@ -49,7 +49,7 @@
   font-style: italic;
   font-weight: normal;
   font-size: 28px;
-  line-height: 41px;
+  line-height: 0.5em;
   text-transform: unset;
 }
 
@@ -97,7 +97,7 @@
     left: 50%;
     transform: translate(-50%, -60%);
     width: 85vw;
-    height: 25vh;
+    height: 26vh;
     border-radius: 10px;
     z-index: -1;
 
@@ -116,14 +116,14 @@
 
   #quote h2 {
     font-size: 18px;
-    line-height: 1.1em;
+    line-height: 1.0em;
     text-align: center;
 
   }
 
   #quote h3 {
-    font-size: 12px;
-    line-height: 0.1em;
+    font-size: 11px;
+    line-height: 0.95em;
     text-align: center;
     text-transform: unset;
     padding: 0;
