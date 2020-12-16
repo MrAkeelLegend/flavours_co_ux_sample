@@ -9,8 +9,6 @@
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
 
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
@@ -26,8 +24,6 @@
 </head>
 
 <body>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
-  <script src="jquery.snow.js"></script>
   <main>
     <section class="head-cover" uk-parallax="bgy: -400">
       <div
@@ -262,73 +258,7 @@
 
 
 
-  <script>
-    var snowEffectInterval = jQuery.fn.snow({
-      // min size of element (default: 20)
-      minSize: 20,
-      
-      // max size of element (default: 50)
-      maxSize: 50,
-      
-      // flake fall time multiplier (default: 20)
-      fallTimeMultiplier: 20, 
-      
-      // flake fall time difference (default: 10000)
-      fallTimeDifference: 10000, 
-      
-      // interval (miliseconds) between new element spawns (default: 500)
-      spawnInterval: 100, 
-      
-      // jQuery element to apply snow effect on (should work on any block element) (default: body)
-      target: jQuery(".head-cover div"),
-      
-      //elements to use in generating snow effect
-      elements	: [
-      
-        // Element #1
-        { 
-          // html element to be spawned for this element
-          html: '<i class="fa fa-snowflake-o" aria-hidden="true"></i>',
-          // hex color for this element - works only for font based icons
-          color: '#ffffff'
-        },
-        
-        // Element #2
-        { 
-          // html element to be spawned for this element
-          html: '<i class="fa fa-bell-o" aria-hidden="true"></i>',
-          // hex color for this element - works only for font based icons
-          color: '#ed9b40'
-        },
-        
-        // Element #3
-        { 
-          // html element to be spawned for this element
-          html: '<i class="fa fa-snowflake-o" aria-hidden="true"></i>',
-          // hex color for this element - works only for font based icons
-          color: '#ffffff'
-        },
-        
-        // Element #4
-        {
-          // html element to be spawned for this element
-          html: '<i class="fa fa-music" aria-hidden="true"></i>',
-          // hex color for this element - works only for font based icons
-          color: '#cc2037'
-        },
-        
-        // Element #5
-        { 
-          // html element to be spawned for this element
-          html: '<i class="fa fa-snowflake-o" aria-hidden="true"></i>',
-          // hex color for this element - works only for font based icons
-          color: '#ffffff'
-        },
-      ]
-    });
-    </script>
-
-
+  
 
   <!------------------------------------GSAP animation plugins--------------->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
