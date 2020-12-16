@@ -1,0 +1,57 @@
+.head-cover {
+  position: relative;
+  background: none;
+  background-color: pink;
+  min-height: 80vh;
+}
+
+.head-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.head-container h1 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#cupcake path:nth-child(3) {
+  /*display: none;*/
+  animation: scale-up 2s ease-out forwards 3s;
+}
+
+#cupcake path:nth-child(1) {
+  /*display: none;*/
+  animation: fade-in 2s ease-out forwards 3s;
+}
+
+@keyframes scale-up {
+  from {
+    opacity: 0;
+    fill: #fff;
+    transform: scale(0.2);
+    transform-origin: center;
+  }
+
+  to {
+    opacity: 1;
+    fill: #eb8787;
+    transform: scale(1.0);
+    transform-origin: center;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

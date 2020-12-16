@@ -20,26 +20,13 @@
     <!--PT Sans google font api-->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="ourStory.css">
+  <link rel="stylesheet" href="gallery.css">
 </head>
 
 <body>
 
   
   <main>
-    
-    
-    <div id="white-box"></div>
-    <div id="quote">
-      <h2>Baking is my passion,
-        Grandma & Mom are my inspirations</h2>
-      <h3>~Uthpala</h3>
-      <h3>Pistoriophile | FlavoursCo</h3>
-    </div>
-
-    <div id="founder">
-      <img src="img/uthpala.jpg" alt="">
-    </div>
     
     <section class="head-cover" uk-parallax="bgy: -400">
       <div
@@ -53,56 +40,28 @@
           <h1 id="logo">Flavours Co.</h1>
           <ul class="nav-links">
             <li> <a href="index.html">Home</a> </li>
-            <li> <a href="#">Our Story</a></li>
-            <li> <a href="gallery.html">Photo Gallery</a></li>
+            <li> <a href="ourStory.html">Our Story</a></li>
+            <li> <a href="#">Photo Gallery</a></li>
             <li> <a href="#footer">Contact Us</a></li>
           </ul>
         </nav>
       </div>
-      <!--<h2 class="big-text">Baking is my passion,
-        Grandma & Mom are my inspirations</h2>-->
+      <div class="head-container">
+        <h1>LET’S BAKE THE WORLD <br>
+          WITH CAKES, COOKIES & <br>
+          fULL OF LOVE</h1>
+          <svg id="cupcake" width="120" height="174" viewBox="0 0 53 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M51.4738 36.1201C52.1388 33.2905 53.0916 25.5044 45.6737 19.2616C41.8566 16.0478 38.2507 13.5647 28.8801 7.86963C36.7985 16.2066 36.6276 19.9395 20.467 21.808C5.50184 23.5372 7.50098 32.1733 8.95447 36.1203H7.76514L12.2263 76.2667H47.9115L52.3716 36.1201H51.4738Z" fill="#FEE1E3"/>
+            <path d="M48.3496 31.3627C48.2177 31.2156 48.0651 31.0944 47.8988 30.9997C48.1201 30.012 48.3475 28.5849 48.3496 26.8647C48.3721 22.8721 47.0284 17.1971 41.4704 12.5428C37.5599 9.25029 33.8333 6.69023 24.4526 0.992058C23.689 0.52874 22.6986 0.70136 22.1375 1.39707C21.577 2.09278 21.6182 3.09841 22.2338 3.74522C25.4382 7.02564 26.979 9.65383 26.858 10.6106C26.8319 11.1719 26.685 11.691 24.7544 12.6001C22.8802 13.4235 19.6077 14.1464 14.9091 14.6832C4.33537 15.697 0.665812 21.1206 0.827983 25.9026C0.831954 27.8213 1.29924 29.579 1.75378 30.8958C1.50049 30.9966 1.27019 31.1535 1.08336 31.3629C0.743554 31.7418 0.583261 32.2423 0.63906 32.7489L5.10025 72.8954C5.20077 73.7993 5.96315 74.4829 6.87348 74.4829H42.5586C43.4683 74.4829 44.2315 73.7993 44.3325 72.8954L48.792 32.7489C48.8495 32.2419 48.6894 31.7416 48.3496 31.3627ZM15.3194 18.2274C20.186 17.6592 23.6785 16.9484 26.1772 15.8722C28.6196 14.8801 30.4536 13.0293 30.4271 10.6104C30.402 9.95247 30.2804 9.31716 30.0818 8.69104C34.2544 11.3752 36.6604 13.1602 39.1731 15.2743C43.8167 19.2059 44.7582 23.5787 44.7814 26.8645C44.783 28.7005 44.4547 30.0835 44.2664 30.7671H5.51049C5.02522 29.5341 4.39242 27.718 4.39639 25.9022C4.55794 22.857 5.56921 19.5616 15.3194 18.2274ZM40.9622 70.914H8.47033L4.4058 34.3359H45.0257L40.9622 70.914Z" fill="#959595"/>
+            <path d="M23.6958 68.0984C24.4026 68.7114 25.4707 68.6733 26.1311 68.0087C31.1656 62.7375 40.4814 55.8423 40.7747 47.8004V47.7905V47.754C40.7584 40.413 35.7941 36.7315 32.1089 36.7152L32.041 36.7167C28.496 36.8063 26.1205 38.5407 24.8214 40.4253C23.5194 38.5534 21.1751 36.8145 17.6921 36.7167L17.6217 36.7152C13.9237 36.733 8.97058 40.432 8.95532 47.7945C9.10224 52.2956 12.9032 56.905 16.4788 60.9791C20.0948 64.9728 23.6632 68.07 23.6958 68.0984ZM12.5244 47.7947C12.5285 42.1879 16.1598 40.3233 17.5843 40.2855C20.4269 40.4554 21.5017 41.7191 22.2906 43.1484C22.6578 43.866 22.8639 44.6188 22.9702 45.1774C23.076 45.736 23.0705 46.0225 23.0818 46.024C23.1086 46.9983 23.9159 47.7701 24.8904 47.7567C25.8645 47.7431 26.6486 46.9481 26.6486 45.9738C26.6479 45.9732 26.6475 45.953 26.6482 45.921H26.6486C26.6486 45.9203 26.6486 45.9189 26.6486 45.9187C26.6548 45.6482 26.7386 44.387 27.3716 43.1294C28.1336 41.7256 29.1777 40.4615 32.1434 40.2855C33.5668 40.3212 37.2006 42.1808 37.2058 47.754V47.7905C37.4441 52.4035 30.1917 59.176 24.8252 64.3137C23.5161 63.1076 21.3203 61.0111 19.1258 58.5844C15.6386 54.8557 12.3774 49.9866 12.5244 47.7947Z" fill="#959595"/>
+            </svg>
+            
+      </div>
     </section>
     
   </main>
 
-  <section class="center-content uk-margin-medium">
-    <div class="uk-text-center">
-      <h2>&nbsp;&nbsp;&nbsp;&nbsp;FlavoursCo</h2>
-    </div>
-    <br><br><br><br>
-    <div class="uk-margin-large-top uk-margin-xlarge-left uk-margin-xlarge-right">
-      <h3>My Story as a Baker</h3>
-      <p>An engineer by profession, but always desired to be a culinery artist from childhood, my passion to baking and culinary expereminets initially ignited through my grandma & mom.  who were the guru’s of my home a baking journey. I started making home delicious and baking stuffs for my family and for my neighbeours when i was child. but after my birthday cake for a one year old cutie in the door next to my home rocked the party back in 2018, it’s when i decided why not I spread the wings and started my own Food Boutique!!</p>
-    </div>
-    <div class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-      <img src="img/uthpala_family.jpg" alt="">
-      <br>
-      <h3>Food Boutique by Uthpala</h3>
-      <p>After the years of culinery journey with my Grandma & My mom, Finally I’ve decided to start my own food boutique.
-
-        That’s what FlavoursCo is...!
-        
-        An home based baking culinery boutique, started initially in instagram and now steadily grown as a trademark of quality, delicious, and full of love among our clients.
-        
-        We do love Baking, so preparing your favourites cakes ans=d delicacieus never make us bored. Simply contact us and get done your favourite delicacies prepared with full of love from our whole family!</p>
-    </div>
-    <h3 id="reach-us-title-s">Reach us</h3>
-    <div class="uk-margin-xlarge-left uk-margin-xlarge-right uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
-      <h3 id="reach-us-title">Reach us</h3>
-      <img id="reach-us-photo" src="img/chocolate_marshmallow.jpg" alt="">
-      
-    </div>
-
-    <div class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-medium-top">
-      <p>I’m always excited to treat you with my delicious delicacies..</p>
-      <p>Be it for a birth day party, or special family occasions or a delicious treat to your loved ones, i’m always happy to treat you.</p>
-      <p>Call me to: </p>
-      <p>0773553553</p>
-      <p>or reach us out in social media to make your order</p>
-    </div>
-    
-  </section>
-
+  
   
 
   
@@ -115,8 +74,8 @@
         <h3>QUICK LINKS</h3>
             <ul class="uk-flex uk-margin-auto-vertical" style="list-style: none; flex-direction: column;">
               <li> <a href="index.html"> <p>Home</p> </a></li>
-              <li><a href="#"><p>Our Story</p></a></li>
-              <li><a href="gallery.html"><p>Photo Gallery</p></a></li>
+              <li><a href="ourStory.html"></a><p>Our Story</p></a></li>
+              <li><a href="#"><p>Photo Gallery</p></a></li>
             </ul>
       </div>
       <div class="uk-width-expand@m">

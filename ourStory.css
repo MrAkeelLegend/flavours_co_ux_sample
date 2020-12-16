@@ -161,6 +161,14 @@
     font-size: 24px;
   }
 
+  .center-content h2 {
+
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 65px;
+  }
+
   #reach-us-title-s {
     display: none;
   }
