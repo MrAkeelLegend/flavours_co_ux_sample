@@ -172,4 +172,12 @@
   #reach-us-title-s {
     display: none;
   }
+
+  #reach-us-title {
+    transform: rotate(-90deg);
+    font-size: 5rem;
+    background-color: #c4c4c4;
+    padding: 1rem;
+    border-radius: 0.2rem;
+  }
 }

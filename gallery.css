@@ -26,41 +26,74 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
-    ". . . . .                     . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake5 cake5 cake5 cake5 cake5 . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake5 cake5 cake5 cake5 cake5 . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake5 cake5 cake5 cake5 cake5 . cake4 cake4 cake4 cake4 cake4 cake4"
-    "cake5 cake5 cake5 cake5 cake5 . . . . . . ."
-    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
-    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
-    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
-    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
+    ". . . . .                     . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake3 cake3 cake3 cake3 cake3 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake3 cake3 cake3 cake3 cake3 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake3 cake3 cake3 cake3 cake3 . cake2 cake2 cake2 cake2 cake2 cake2"
+    "cake3 cake3 cake3 cake3 cake3 . . . . . . ."
+    "cake3 cake3 cake3 cake3 cake3 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake3 cake3 cake3 cake3 cake3 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake3 cake3 cake3 cake3 cake3 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake3 cake3 cake3 cake3 cake3 . cake4 cake4 cake4 cake4 cake4 cake4"
+    ". . . . . . . . . . . ."
+    "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . cake6 cake6 cake6 cake6"
+    "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . cake6 cake6 cake6 cake6"
+    "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . cake6 cake6 cake6 cake6"
+    "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . cake6 cake6 cake6 cake6"
+    "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . . . . ."
 }
 
-.photo-grid div img:hover {
+.photo-grid div {
+  min-height: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.photo-grid div div {
+  height: 100%;
+}
+
+.photo-grid div:hover {
   animation: zoom-in 0.2s forwards;
 }
 
 
-#cake1 {
+.cake1 {
   grid-area: cake1;
+  background: url('img/gallery/cake_1.jpg');
 }
 
-#cake4 {
+.cake2 {
+  grid-area: cake2;
+  background: url('img/gallery/cake_2.jpg');
+}
+
+.cake3 {
+  grid-area: cake3;
+  background: url('img/gallery/cake_3.jpg');
+}
+
+.cake4 {
   grid-area: cake4;
+  background: url('img/gallery/cake_4.jpg');
 }
 
-#cake5 {
+.cake5 {
   grid-area: cake5;
+  background: url('img/gallery/cake_5.jpg');
 }
 
-#cake12 {
-  grid-area: cake12;
+.cake6 {
+  grid-area: cake6;
+  background: url('img/gallery/cake_6.jpg');
 }
+
+
 
 #cupcake path:nth-child(3) {
   /*display: none;*/
@@ -130,8 +163,14 @@
 }
 
 
-@media only screen and (min-width: 768px) {
+
+
+@media only screen and (min-width: 960px) {
   .head-container h1 {
     font-size: 50px;
+  }
+
+  .photo-grid div {
+    min-height: 400px;
   }
 }
