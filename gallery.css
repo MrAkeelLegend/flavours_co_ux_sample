@@ -21,6 +21,47 @@
   font-size: xx-large;
 }
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake1 cake1 cake1 cake1 cake1 . cake4 cake4 cake4 cake4 cake4 cake4"
+    ". . . . .                     . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake5 cake5 cake5 cake5 cake5 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake5 cake5 cake5 cake5 cake5 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake5 cake5 cake5 cake5 cake5 . cake4 cake4 cake4 cake4 cake4 cake4"
+    "cake5 cake5 cake5 cake5 cake5 . . . . . . ."
+    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake5 cake5 cake5 cake5 cake5 . cake12 cake12 cake12 cake12 cake12 cake12"
+}
+
+.photo-grid div img:hover {
+  animation: zoom-in 0.2s forwards;
+}
+
+
+#cake1 {
+  grid-area: cake1;
+}
+
+#cake4 {
+  grid-area: cake4;
+}
+
+#cake5 {
+  grid-area: cake5;
+}
+
+#cake12 {
+  grid-area: cake12;
+}
+
 #cupcake path:nth-child(3) {
   /*display: none;*/
   animation: scale-up 2s cubic-bezier(0.42, 0, 0.64, 1.26) forwards 3s;
@@ -73,6 +114,18 @@
 
   to {
     fill-opacity: 1;
+  }
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(1.0);
+    transform-origin: center;
+  }
+
+  to {
+    transform: scale(1.05);
+    transform-origin: center;
   }
 }
 
