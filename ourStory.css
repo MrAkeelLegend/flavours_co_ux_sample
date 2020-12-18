@@ -143,12 +143,14 @@
   }
 
   #reach-us-title {
+    text-align: center;
+  }
+
+  #center-cake-large {
     display: none;
   }
 
-  #reach-us-title-s {
-    text-align: center;
-  }
+
 
 }
 
@@ -169,15 +171,11 @@
     line-height: 65px;
   }
 
-  #reach-us-title-s {
+  #reach-us-photo {
     display: none;
   }
 
-  #reach-us-title {
-    transform: rotate(-90deg);
-    font-size: 5rem;
-    background-color: #c4c4c4;
-    padding: 1rem;
-    border-radius: 0.2rem;
+  #center-cake {
+    display: none;
   }
 }
