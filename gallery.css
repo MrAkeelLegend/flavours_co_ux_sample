@@ -76,6 +76,21 @@
     "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
     "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
     "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    ". . . . . . . . . . . ."
+    "cake15 cake15 cake15 cake15 cake15 cake15 cake15 .  cake16 cake16 cake16 cake16"
+    "cake15 cake15 cake15 cake15 cake15 cake15 cake15 .  cake16 cake16 cake16 cake16"
+    "cake15 cake15 cake15 cake15 cake15 cake15 cake15 .  cake16 cake16 cake16 cake16"
+    "cake15 cake15 cake15 cake15 cake15 cake15 cake15 .  cake16 cake16 cake16 cake16"
+    ". . . . . . .                                    .  cake16 cake16 cake16 cake16"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake16 cake16 cake16 cake16"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake16 cake16 cake16 cake16"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake16 cake16 cake16 cake16"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  . . . ."
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake18 cake18 cake18 cake18"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake18 cake18 cake18 cake18"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake18 cake18 cake18 cake18"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake18 cake18 cake18 cake18"
+    "cake17 cake17 cake17 cake17 cake17 cake17 cake17 .  cake18 cake18 cake18 cake18"
 
 
 }
@@ -158,11 +173,32 @@
 .cake13 {
   grid-area: cake13;
   background: url('img/gallery/cake_13.jpg');
+  background-size: 100% cover;
 }
 
 .cake14 {
   grid-area: cake14;
   background: url('img/gallery/cake_14.jpg');
+}
+
+.cake15 {
+  grid-area: cake15;
+  background: url('img/gallery/cake_15.jpg');
+}
+
+.cake16 {
+  grid-area: cake16;
+  background: url('img/gallery/cake_16.jpg');
+}
+
+.cake17 {
+  grid-area: cake17;
+  background: url('img/gallery/cake_17.jpg');
+}
+
+.cake18 {
+  grid-area: cake18;
+  background: url('img/gallery/cake_18.jpg');
 }
 
 
