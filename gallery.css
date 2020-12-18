@@ -46,11 +46,34 @@
     "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . cake6 cake6 cake6 cake6"
     "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . cake6 cake6 cake6 cake6"
     "cake5 cake5 cake5 cake5 cake5 cake5 cake5 . . . . ."
+    ". . . . . . . .                             cake8 cake8 cake8 cake8"
+    "cake7 cake7 cake7 cake7 cake7 cake7 cake7 . cake8 cake8 cake8 cake8"
+    "cake7 cake7 cake7 cake7 cake7 cake7 cake7 . cake8 cake8 cake8 cake8"
+    "cake7 cake7 cake7 cake7 cake7 cake7 cake7 . cake8 cake8 cake8 cake8"
+    "cake7 cake7 cake7 cake7 cake7 cake7 cake7 . cake8 cake8 cake8 cake8"
+    "cake7 cake7 cake7 cake7 cake7 cake7 cake7 . cake8 cake8 cake8 cake8"
+    ". . . . . . . . . . . ."
+    "cake9 cake9 cake9 cake9 cake9 . cake10 cake10 cake10 cake10 cake10 cake10"
+    "cake9 cake9 cake9 cake9 cake9 . cake10 cake10 cake10 cake10 cake10 cake10"
+    "cake9 cake9 cake9 cake9 cake9 . cake10 cake10 cake10 cake10 cake10 cake10"
+    "cake9 cake9 cake9 cake9 cake9 . cake10 cake10 cake10 cake10 cake10 cake10"
+    "cake9 cake9 cake9 cake9 cake9 . cake10 cake10 cake10 cake10 cake10 cake10"
+    "cake9 cake9 cake9 cake9 cake9 . . . . . . ."
+    "cake9 cake9 cake9 cake9 cake9 .      cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake9 cake9 cake9 cake9 cake9 .      cake12 cake12 cake12 cake12 cake12 cake12"
+    ". . . . . .                          cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
+
+
 }
 
 .photo-grid div {
   min-height: 100px;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -91,6 +114,36 @@
 .cake6 {
   grid-area: cake6;
   background: url('img/gallery/cake_6.jpg');
+}
+
+.cake7 {
+  grid-area: cake7;
+  background: url('img/gallery/cake_7.jpg');
+}
+
+.cake8 {
+  grid-area: cake8;
+  background: url('img/gallery/cake_8.jpg');
+}
+
+.cake9 {
+  grid-area: cake9;
+  background: url('img/gallery/cake_9.jpg');
+}
+
+.cake10 {
+  grid-area: cake10;
+  background: url('img/gallery/cake_10.jpg');
+}
+
+.cake11 {
+  grid-area: cake11;
+  background: url('img/gallery/cake_11.jpg');
+}
+
+.cake12 {
+  grid-area: cake12;
+  background: url('img/gallery/cake_12.jpg');
 }
 
 
