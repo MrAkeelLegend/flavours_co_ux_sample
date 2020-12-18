@@ -24,7 +24,7 @@
 .photo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
     "cake1 cake1 cake1 cake1 cake1 . cake2 cake2 cake2 cake2 cake2 cake2"
@@ -67,6 +67,15 @@
     "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
     "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
     "cake11 cake11 cake11 cake11 cake11 . cake12 cake12 cake12 cake12 cake12 cake12"
+    "cake11 cake11 cake11 cake11 cake11 . . . . . . ."
+    ". . . . .                          . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
+    "cake13 cake13 cake13 cake13 cake13 . cake14 cake14 cake14 cake14 cake14 cake14"
 
 
 }
@@ -144,6 +153,16 @@
 .cake12 {
   grid-area: cake12;
   background: url('img/gallery/cake_12.jpg');
+}
+
+.cake13 {
+  grid-area: cake13;
+  background: url('img/gallery/cake_13.jpg');
+}
+
+.cake14 {
+  grid-area: cake14;
+  background: url('img/gallery/cake_14.jpg');
 }
 
 
