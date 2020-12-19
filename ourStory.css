@@ -3,6 +3,8 @@
   background-color: pink;
 }
 
+
+
 #white-box {
   position: absolute;
   top: 70%;
@@ -69,7 +71,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
 
 
@@ -154,9 +156,45 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   #founder {
-    margin-left: 9vw;
+    margin-left: 5vw;
+  }
+
+
+  #founder {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    transform: translate(0%, -50%);
+  }
+
+  #founder img {
+    width: 25vw;
+    height: auto;
+  }
+
+  #white-box {
+    width: 40vw;
+    height: 50vh;
+    top: 70vh;
+    left: 40vw;
+  }
+
+  #quote {
+    width: 40vw;
+    height: 60vh;
+    top: 50vh;
+    left: 42vw;
+    transform: translate(0%, 0%);
+  }
+
+  #quote h2 {
+    font-size: 2.5rem;
+  }
+
+  #heading {
+    left: 42vw;
   }
 
   .center-content {
